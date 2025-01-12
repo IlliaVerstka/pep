@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+<title>Portable Education Platform</title>
+<link rel="stylesheet" href="/css/style.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__logo-block">
+        <div class="header__logo logo">
+            <img src="/img/logo.svg" alt="">
+            Portable<br>Education<br>Platform
+        </div>
+    </div>
+    <div class="header__menu menu">
+        <ul class="menu__list">
+            <li><a href="/" class="menu__link ">Головна</a></li>
+            <li><a href="/student.html" class="menu__link ">Здобувачу освіти</a></li>
+            <li><a href="/schedule.html" class="menu__link -active">Електронний розклад</a></li>
+            <li><a href="/my-class.html" class="menu__link ">Мій клас</a></li>
+            <li><a href="" class="menu__link ">Картка "Моя освіта"</a></li>
+            <li><a href="" class="menu__link ">Тестування</a></li>
+        </ul>
+    </div>
+    <a href="#" class="header__burger menu-burger">
+        <p class="menu-burger__label">Меню</p>
+        <span class="menu-burger__icon"><span></span></span>
+    </a>
+    <div class="header__actions" data-me="767.98, .menu, last">
+        <a href="/register.html" class="header__btn btn btn_small btn_border btn_circle">Зареєструватися</a>
+        <a href="/login.html" class="header__btn btn btn_small btn_blue btn_circle">Увійти</a>
+    </div>
+</header>
+        <div class="page">
+            <div class="page__signle page-single">
+                <div class="page-single__header">
+                    <div class="page-single__container -container">
+                        <h2 class="page-single__title title"><i></i><span>Електронний розклад</span><i></i></h2>
+                    </div>
+                </div>
+                <div class="page-single__main schedule">
+                    <div class="schedule__container -container">
+                        <div class="schedule__general-info schedule-general-info">
+                            <div class="schedule-general-info__col">
+                                <h3 class="schedule-general-info__title">Загальна інформація</h3>
+                                <form action="#" class="schedule-general-info__body">
+                                    <div class="schedule-general-info__section">
+                                        <h4 class="schedule-general-info__label">Робочі дні</h4>
+                                        <div class="schedule-general-info__days">
+                                            <label class="schedule-general-info__checkbox">
+                                                <input type="checkbox" name="days-Понеділок">
+                                                <span>
+                                                    Понеділок
+                                                </span>
+                                            </label>
+                                            <label class="schedule-general-info__checkbox">
+                                                <input type="checkbox" name="days-Вівторок">
+                                                <span>
+                                                    Вівторок
+                                                </span>
+                                            </label>
+                                            <label class="schedule-general-info__checkbox">
+                                                <input type="checkbox" name="days-Середа">
+                                                <span>
+                                                    Середа
+                                                </span>
+                                            </label>
+                                            <label class="schedule-general-info__checkbox">
+                                                <input type="checkbox" name="days-Четвер">
+                                                <span>
+                                                    Четвер
+                                                </span>
+                                            </label>
+                                            <label class="schedule-general-info__checkbox">
+                                                <input type="checkbox" name="days-П'ятниця">
+                                                <span>
+                                                    П'ятниця
+                                                </span>
+                                            </label>
+                                            <label class="schedule-general-info__checkbox">
+                                                <input type="checkbox" name="days-Субота">
+                                                <span>
+                                                    Субота
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-general-info__section schedule-general-info__section_row">
+                                        <h4 class="schedule-general-info__label">Кількість уроків</h4>
+                                        <div class="schedule-general-info__input -input-form -input-small">
+                                            <input data-value="..." class="-req -num" autocomplete="off" type="tel" name="num-lessons">
+                                        </div>
+                                    </div>
+                                    <div class="schedule-general-info__section">
+                                        <h4 class="schedule-general-info__label">Навчальний рік</h4>
+                                        <div class="schedule-general-info__rows">
+                                            <div class="schedule-general-info__row">
+                                                <div class="schedule-general-info__desc">І семестр</div>
+                                                <div class="schedule-general-info__inputs">
+                                                    <div class="schedule-general-info__input-label">
+                                                        <p class="schedule-general-info__from-input">з</p>
+                                                        <div class="schedule-general-info__input -input-form -input-small">
+                                                            <input data-value="..." class="-req -date" autocomplete="off" type="date" name="start-one-semester">
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-general-info__input-label">
+                                                        <p class="schedule-general-info__from-input">до</p>
+                                                        <div class="schedule-general-info__input -input-form -input-small">
+                                                            <input data-value="..." class="-req -date" autocomplete="off" type="date" name="end-one-semester">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-general-info__row">
+                                                <div class="schedule-general-info__desc">ІІ семестр</div>
+                                                <div class="schedule-general-info__inputs">
+                                                    <div class="schedule-general-info__input-label">
+                                                        <p class="schedule-general-info__from-input">з</p>
+                                                        <div class="schedule-general-info__input -input-form -input-small">
+                                                            <input data-value="..." class="-req -date" autocomplete="off" type="date" name="start-two-semester">
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-general-info__input-label">
+                                                        <p class="schedule-general-info__from-input">до</p>
+                                                        <div class="schedule-general-info__input -input-form -input-small">
+                                                            <input data-value="..." class="-req -date" autocomplete="off" type="date" name="end-two-semester">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-general-info__footer">
+                                        <button type="submit" class="schedule-general-info__btn btn btn_blue btn_big">Зберегти</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="schedule-general-info__col">
+                                <h3 class="schedule-general-info__title">Розклад дзвінків</h3>
+                                <div class="schedule-general-info__body">
+                                    <div class="schedule-general-info__preview">
+                                        <div class="schedule-general-info__slider-body swiper">
+                                            <div class="schedule-general-info__slider-wrapper swiper-wrapper">
+                                                <div class="schedule-general-info__slider-slide swiper-slide">
+                                                    <div class="schedule-general-info__create-block">
+                                                        <a href="" class="schedule-general-info__create-icon create-icon">
+                                                            <div class="create-icon__icon"></div>
+                                                            <p class="create-icon__label">Створити</p>
+                                                        </a>
+                                                    </div>
+                                                    <form action="#" data-form class="schedule-general-info__schedule-item schedule-item">
+                                                        <div class="schedule-item__header">
+                                                            <h3 class="schedule-item__label">Виберіть дні:</h3>
+                                                            <div class="schedule-item__slider">
+                                                                <div class="schedule-item__slider-body swiper">
+                                                                    <div class="schedule-item__slider-wrapper swiper-wrapper">
+                                                                        <label class="schedule-item__slider-slide swiper-slide"><input type="checkbox" class="-req -one-select" name="days-Понеділок"><span>Понеділок</span></label>
+                                                                        <label class="schedule-item__slider-slide swiper-slide"><input type="checkbox" class="-req -one-select" name="days-Вівторок"><span>Вівторок</span></label>
+                                                                        <label class="schedule-item__slider-slide swiper-slide"><input type="checkbox" class="-req -one-select" name="days-Середа"><span>Середа</span></label>
+                                                                        <label class="schedule-item__slider-slide swiper-slide"><input type="checkbox" class="-req -one-select" name="days-Четвер"><span>Четвер</span></label>
+                                                                        <label class="schedule-item__slider-slide swiper-slide"><input type="checkbox" class="-req -one-select" name="days-П'ятниця"><span>П'ятниця</span></label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="schedule-item__slider-arrows -slider-arrows">
+                                                                    <div class="schedule-item__slider-arrow schedule-item__slider-arrow_prev -slider-arrow -slider-arrow_prev -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                    <div class="schedule-item__slider-arrow schedule-item__slider-arrow_next -slider-arrow -slider-arrow_next -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="schedule-item__tabs tabs-schedule-item">
+                                                            <div class="tabs-schedule-item__slider">
+                                                                <div class="tabs-schedule-item__slider-body tabs-schedule-item__slider-body_items swiper">
+                                                                    <div class="tabs-schedule-item__slider-wrapper swiper-wrapper">
+                                                                        <div class="tabs-schedule-item__slider-slide swiper-slide">
+                                                                            <h3 class="tabs-schedule-item__title">І зміна</h3>
+                                                                        </div>
+                                                                        <div class="tabs-schedule-item__slider-slide swiper-slide">
+                                                                            <h3 class="tabs-schedule-item__title">ІI зміна</h3>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tabs-schedule-item__slider-arrows -slider-arrows">
+                                                                    <div class="tabs-schedule-item__slider-arrow tabs-schedule-item__slider-arrow_prev -slider-arrow -slider-arrow_prev -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                    <div class="tabs-schedule-item__slider-arrow tabs-schedule-item__slider-arrow_next -slider-arrow -slider-arrow_next -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-schedule-item__slider">
+                                                                <div class="tabs-schedule-item__slider-body tabs-schedule-item__slider-body_content swiper">
+                                                                    <div class="tabs-schedule-item__slider-wrapper swiper-wrapper">
+                                                                        <div class="tabs-schedule-item__slider-slide swiper-slide">
+                                                                            <div class="tabs-schedule-item__row">
+                                                                                <div class="tabs-schedule-item__input-block">
+                                                                                    <h5 class="tabs-schedule-item__label">Початок</h5>
+                                                                                    <div class="tabs-schedule-item__inputs">
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="0" max="23" autocomplete="off" type="tel" name="hours-start-lesson">
+                                                                                            </div>
+                                                                                            <p>год.</p>
+                                                                                        </div>
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="0" max="60" autocomplete="off" type="tel" name="minute-start-lesson">
+                                                                                            </div>
+                                                                                            <p>хв.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="tabs-schedule-item__input-block">
+                                                                                    <h5 class="tabs-schedule-item__label">Тривал. уроку</h5>
+                                                                                    <div class="tabs-schedule-item__input-label">
+                                                                                        <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                            <input data-value="..." class="-req -number" min="1" max="60" autocomplete="off" type="tel" name="duration-lesson">
+                                                                                        </div>
+                                                                                        <p>хв.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="tabs-schedule-item__row">
+                                                                                <h3 class="tabs-schedule-item__title">Перерви</h3>
+                                                                                <div class="tabs-schedule-item__input-label">
+                                                                                    <p>між уроками</p>
+                                                                                    <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                        <input data-value="" class="-req -number" min="1" max="60" autocomplete="off" type="tel" name="default-break-lesson">
+                                                                                    </div>
+                                                                                    <p>хв.</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div data-form class="tabs-schedule-item__settings-break">
+                                                                                <h3 class="tabs-schedule-item__separator">
+                                                                                    <span>Налаштування перерв</span>
+                                                                                </h3>
+                                                                                <div class="tabs-schedule-item__row">
+                                                                                    <div class="tabs-schedule-item__input-block">
+                                                                                        <h5 class="tabs-schedule-item__label">Після</h5>
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <p>№</p>
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="1" autocomplete="off" type="tel" name="settings-num-lesson">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="tabs-schedule-item__input-block">
+                                                                                        <h5 class="tabs-schedule-item__label">Тривалість</h5>
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="1" max="60" autocomplete="off" type="tel" name="duration-break">
+                                                                                            </div>
+                                                                                            <p>хв.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="tabs-schedule-item__select">
+                                                                                        <h5 class="tabs-schedule-item__label">Вел. пер.</h5>
+                                                                                        <select class="tabs-schedule-item-select -select-small -input-small" name="big-break" data-cselect-src="select" data-cselect-auto-height data-cselect-opener-label="...">
+                                                                                            <option value="ні">ні</option>
+                                                                                            <option value="так">так</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <a href="#" data-form-submit class="tabs-schedule-item__btn btn btn_blue btn-create"></a>
+                                                                                </div>
+                                                                                <div class="tabs-schedule-item__preview-break preview-break-schedule-item">
+                                                                                    <div class="preview-break-schedule-item__body swiper">
+                                                                                        <div class="preview-break-schedule-item__wrapper swiper-wrapper">
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="preview-break-schedule-item__slider-scrollbar"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="tabs-schedule-item__slider-slide swiper-slide">
+                                                                            <div class="tabs-schedule-item__row">
+                                                                                <div class="tabs-schedule-item__input-block">
+                                                                                    <h5 class="tabs-schedule-item__label">Початок</h5>
+                                                                                    <div class="tabs-schedule-item__inputs">
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="0" max="23" autocomplete="off" type="tel" name="hours-start-lesson">
+                                                                                            </div>
+                                                                                            <p>год.</p>
+                                                                                        </div>
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="0" max="60" autocomplete="off" type="tel" name="minute-start-lesson">
+                                                                                            </div>
+                                                                                            <p>хв.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="tabs-schedule-item__input-block">
+                                                                                    <h5 class="tabs-schedule-item__label">Тривал. уроку</h5>
+                                                                                    <div class="tabs-schedule-item__input-label">
+                                                                                        <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                            <input data-value="..." class="-req -number" min="1" max="60" autocomplete="off" type="tel" name="duration-lesson">
+                                                                                        </div>
+                                                                                        <p>хв.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="tabs-schedule-item__row">
+                                                                                <h3 class="tabs-schedule-item__title">Перерви</h3>
+                                                                                <div class="tabs-schedule-item__input-label">
+                                                                                    <p>між уроками</p>
+                                                                                    <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                        <input data-value="" class="-req -number" min="1" max="60" autocomplete="off" type="tel" name="default-break-lesson">
+                                                                                    </div>
+                                                                                    <p>хв.</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div data-form class="tabs-schedule-item__settings-break">
+                                                                                <h3 class="tabs-schedule-item__separator">
+                                                                                    <span>Налаштування перерв</span>
+                                                                                </h3>
+                                                                                <div class="tabs-schedule-item__row">
+                                                                                    <div class="tabs-schedule-item__input-block">
+                                                                                        <h5 class="tabs-schedule-item__label">Після</h5>
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <p>№</p>
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="1" autocomplete="off" type="tel" name="settings-num-lesson">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="tabs-schedule-item__input-block">
+                                                                                        <h5 class="tabs-schedule-item__label">Тривалість</h5>
+                                                                                        <div class="tabs-schedule-item__input-label">
+                                                                                            <div class="tabs-schedule-item__input -input-form -input-small">
+                                                                                                <input data-value="..." class="-req -number" min="1" max="60" autocomplete="off" type="tel" name="duration-break">
+                                                                                            </div>
+                                                                                            <p>хв.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="tabs-schedule-item__select">
+                                                                                        <h5 class="tabs-schedule-item__label">Вел. пер.</h5>
+                                                                                        <select class="tabs-schedule-item-select -select-small -input-small" name="big-break" data-cselect-src="select" data-cselect-auto-height data-cselect-opener-label="...">
+                                                                                            <option value="ні">ні</option>
+                                                                                            <option value="так">так</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <a href="#" data-form-submit class="tabs-schedule-item__btn btn btn_blue btn-create"></a>
+                                                                                </div>
+                                                                                <div class="tabs-schedule-item__preview-break preview-break-schedule-item">
+                                                                                    <div class="preview-break-schedule-item__body swiper">
+                                                                                        <div class="preview-break-schedule-item__wrapper swiper-wrapper">
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="preview-break-schedule-item__slide swiper-slide">
+                                                                                                <a href="" class="preview-break-schedule-item__hover"><span class="-icon-trash"></span></a>
+                                                                                                <div class="preview-break-schedule-item__num"><span>4</span></div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>Вел.</p>
+                                                                                                    <p>ні</p>
+                                                                                                </div>
+                                                                                                <div class="preview-break-schedule-item__text">
+                                                                                                    <p>10 хв.</p>
+                                                                                                    <p>Тривалість</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="preview-break-schedule-item__slider-scrollbar"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" class="tabs-schedule-item__save btn btn_blue btn_small">Зберегти</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="schedule-general-info__slider-slide swiper-slide">
+                                                    <div class="schedule-general-info__schedule-item schedule-item">
+                                                        <div class="schedule-item__header">
+                                                            <h3 class="schedule-item__label">Обрані дні:</h3>
+                                                            <div class="schedule-item__slider">
+                                                                <div class="schedule-item__slider-body swiper">
+                                                                    <div class="schedule-item__slider-wrapper swiper-wrapper">
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Понеділок</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Вівторок</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Середа</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Четвер</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>П'ятниця</span></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="schedule-item__slider-arrows -slider-arrows">
+                                                                    <div class="schedule-item__slider-arrow schedule-item__slider-arrow_prev -slider-arrow -slider-arrow_prev -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                    <div class="schedule-item__slider-arrow schedule-item__slider-arrow_next -slider-arrow -slider-arrow_next -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="schedule-item__preview">
+                                                            <div class="schedule-item__col">
+                                                                <h4 class="schedule-item__label">І зміна</h4>
+                                                                <div class="schedule-item__rows">
+                                                                    <div class="schedule-item__item">
+                                                                        1. 8:12 - 8:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 9:12 - 9:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item schedule-item__item_big">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">35 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="schedule-item__col">
+                                                                <h4 class="schedule-item__label">ІІ зміна</h4>
+                                                                <div class="schedule-item__rows">
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item schedule-item__item_big">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">35 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="schedule-item__footer">
+                                                            <div class="schedule-item__info">
+                                                                <p class="schedule-item__text">Триваліть уроку: <span>40</span>хв.</p>
+                                                                <p class="schedule-item__text">Обідня перерва: <span>30</span>хв.</p>
+                                                            </div>
+                                                            <div class="schedule-item__actions">
+                                                                <a href="" class="schedule-item__btn schedule-item__btn_edit"><span class="-icon-edit"></span></a>
+                                                                <a href="" class="schedule-item__btn schedule-item__btn_delete"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="schedule-general-info__slider-slide swiper-slide">
+                                                    <div class="schedule-general-info__schedule-item schedule-item">
+                                                        <div class="schedule-item__header">
+                                                            <h3 class="schedule-item__label">Обрані дні:</h3>
+                                                            <div class="schedule-item__slider">
+                                                                <div class="schedule-item__slider-body swiper">
+                                                                    <div class="schedule-item__slider-wrapper swiper-wrapper">
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Понеділок</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Вівторок</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Середа</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>Четвер</span></div>
+                                                                        <div class="schedule-item__slider-slide swiper-slide"><span>П'ятниця</span></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="schedule-item__slider-arrows -slider-arrows">
+                                                                    <div class="schedule-item__slider-arrow schedule-item__slider-arrow_prev -slider-arrow -slider-arrow_prev -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                    <div class="schedule-item__slider-arrow schedule-item__slider-arrow_next -slider-arrow -slider-arrow_next -slider-arrow_small"><span class="-icon-arrow-right"></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="schedule-item__preview">
+                                                            <div class="schedule-item__col">
+                                                                <h4 class="schedule-item__label">І зміна</h4>
+                                                                <div class="schedule-item__rows">
+                                                                    <div class="schedule-item__item">
+                                                                        1. 8:12 - 8:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 9:12 - 9:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item schedule-item__item_big">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">35 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="schedule-item__col">
+                                                                <h4 class="schedule-item__label">ІІ зміна</h4>
+                                                                <div class="schedule-item__rows">
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item schedule-item__item_big">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">35 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                        <span class="schedule-item__separator">5 хв.</span>
+                                                                    </div>
+                                                                    <div class="schedule-item__item">
+                                                                        1. 12:12 - 12:12
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="schedule-item__footer">
+                                                            <div class="schedule-item__info">
+                                                                <p class="schedule-item__text">Триваліть уроку: <span>40</span>хв.</p>
+                                                                <p class="schedule-item__text">Обідня перерва: <span>30</span>хв.</p>
+                                                            </div>
+                                                            <div class="schedule-item__actions">
+                                                                <a href="" class="schedule-item__btn schedule-item__btn_edit"><span class="-icon-edit"></span></a>
+                                                                <a href="" class="schedule-item__btn schedule-item__btn_delete"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="schedule-general-info__slider-scrollbar"></div>
+                                    </div>
+                                    <div class="schedule-general-info__footer">
+                                        <a href="" class="schedule-general-info__btn btn btn_blue btn_big">Зберегти зміни</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="schedule__tabs info-schedule-tabs" data-tab="min, 0">
+                            <div class="info-schedule-tabs__items" data-tab-categories>
+                                <a href="" class="info-schedule-tabs__item" data-tab-item="1"><img src="img/schedule/book.svg" alt="">Предмети</a>
+                                <a href="" class="info-schedule-tabs__item" data-tab-item="2"><img src="img/schedule/teacher.svg" alt="">Викладачі</a>
+                                <a href="" class="info-schedule-tabs__item" data-tab-item="3"><img src="img/schedule/groups.svg" alt="">Групи</a>
+                            </div>
+                            <div class="info-schedule-tabs__body" data-tab-body>
+                                <div class="info-schedule-tabs__content schedule-subject" data-tab-content="1">
+                                    <div class="schedule-subject__header" data-form>
+                                        <div class="schedule-subject__inputs">
+                                            <div class="schedule-subject__input-block">
+                                                <h4 class="schedule-subject__label">Повна назва предмету</h4>
+                                                <div class="schedule-subject__input -input-form -input-big">
+                                                    <input data-value="Введіть щось" class="-req -text" autocomplete="off" type="text" name="full-name-lesson">
+                                                </div>
+                                            </div>
+                                            <div class="schedule-subject__input-block">
+                                                <h4 class="schedule-subject__label">Скорочена назва предмету</h4>
+                                                <div class="schedule-subject__input -input-form -input-big">
+                                                    <input data-value="Введіть щось" class="-req -text" autocomplete="off" type="text" name="short-name-lesson">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="" class="schedule-subject__add btn btn_big btn_blue" data-form-submit>Створити</a>
+                                    </div>
+                                    <div class="schedule-subject__scroll" data-scroll="vertical" data-scroll-class="schedule-subject-scroll">
+                                        <div class="schedule-subject__content" data-scroll-content>
+                                            <div class="schedule-subject__emptly">Додайте перший предмет</div>
+                                            <div class="schedule-subject__rows">
+                                                <div class="schedule-subject__row">
+                                                    <div class="schedule-subject__texts">
+                                                        <p class="schedule-subject__text">Українська мова</p>
+                                                        <p class="schedule-subject__text">Укр. мова</p>
+                                                    </div>
+                                                    <a href="" class="schedule-subject__btn-delete btn delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                                <div class="schedule-subject__row">
+                                                    <div class="schedule-subject__texts">
+                                                        <p class="schedule-subject__text">Українська мова</p>
+                                                        <p class="schedule-subject__text">Укр. мова</p>
+                                                    </div>
+                                                    <a href="" class="schedule-subject__btn-delete btn delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                                <div class="schedule-subject__row">
+                                                    <div class="schedule-subject__texts">
+                                                        <p class="schedule-subject__text">Українська мова</p>
+                                                        <p class="schedule-subject__text">Укр. мова</p>
+                                                    </div>
+                                                    <a href="" class="schedule-subject__btn-delete btn delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                                <div class="schedule-subject__row">
+                                                    <div class="schedule-subject__texts">
+                                                        <p class="schedule-subject__text">Українська мова</p>
+                                                        <p class="schedule-subject__text">Укр. мова</p>
+                                                    </div>
+                                                    <a href="" class="schedule-subject__btn-delete btn delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-subject__footer">
+                                        <a href="" class="schedule-subject__btn btn btn_blue btn_big">Зберегти</a>
+                                    </div>
+                                </div>
+                                <div class="info-schedule-tabs__content schedule-teacher" data-tab-content="2">
+                                    <div class="schedule-teacher__slider">
+                                        <div class="schedule-teacher__slider-body swiper">
+                                            <div class="schedule-teacher__slider-wrapper swiper-wrapper">
+                                                <div class="schedule-teacher__slider-slide swiper-slide schedule-teacher-group">
+                                                    <h4 class="schedule-teacher-group__title">Укр.мова</h4>
+                                                    <div class="schedule-teacher-group__list">
+                                                        <div class="schedule-teacher-group__item schedule-teacher-item">
+                                                            <div class="schedule-teacher-item__info">
+                                                                <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                                <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                            </div>
+                                                            <div class="schedule-teacher-item__actions">
+                                                                <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-teacher-group__form" data-form>
+                                                        <select class="schedule-teacher-group-select -input-small -select-small" data-cselect-src="select" name="name-teacher">
+                                                            <option value="Іванон Іван Іванович">Іванон Іван Іванович</option>
+                                                            <option value="Іванон Іван Іванович2">Іванон Іван Іванович2</option>
+                                                            <option value="Іванон Іван Іванович3">Іванон Іван Іванович3</option>
+                                                            <option value="Іванон Іван Іванович4">Іванон Іван Іванович4</option>
+                                                            <option value="Іванон Іван Іванович5">Іванон Іван Іванович5</option>
+                                                            <option value="Іванон Іван Іванович6">Іванон Іван Іванович6</option>
+                                                            <option value="Іванон Іван Іванович7">Іванон Іван Іванович7</option>
+                                                        </select>
+                                                        <a href="" class="schedule-teacher-group__btn btn_blue btn-create"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="schedule-teacher__slider-slide swiper-slide schedule-teacher-group">
+                                                    <h4 class="schedule-teacher-group__title">Укр.мова</h4>
+                                                    <div class="schedule-teacher-group__list">
+                                                        <div class="schedule-teacher-group__item schedule-teacher-item">
+                                                            <div class="schedule-teacher-item__info">
+                                                                <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                                <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                            </div>
+                                                            <div class="schedule-teacher-item__actions">
+                                                                <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-teacher-group__form" data-form>
+                                                        <select class="schedule-teacher-group-select -input-small -select-small" data-cselect-src="select" name="name-teacher">
+                                                            <option value="Іванон Іван Іванович">Іванон Іван Іванович</option>
+                                                            <option value="Іванон Іван Іванович2">Іванон Іван Іванович2</option>
+                                                            <option value="Іванон Іван Іванович3">Іванон Іван Іванович3</option>
+                                                            <option value="Іванон Іван Іванович4">Іванон Іван Іванович4</option>
+                                                            <option value="Іванон Іван Іванович5">Іванон Іван Іванович5</option>
+                                                            <option value="Іванон Іван Іванович6">Іванон Іван Іванович6</option>
+                                                            <option value="Іванон Іван Іванович7">Іванон Іван Іванович7</option>
+                                                        </select>
+                                                        <a href="" class="schedule-teacher-group__btn btn_blue btn-create"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="schedule-teacher__slider-slide swiper-slide schedule-teacher-group">
+                                                    <h4 class="schedule-teacher-group__title">Укр.мова</h4>
+                                                    <div class="schedule-teacher-group__list">
+                                                        <div class="schedule-teacher-group__item schedule-teacher-item">
+                                                            <div class="schedule-teacher-item__info">
+                                                                <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                                <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                            </div>
+                                                            <div class="schedule-teacher-item__actions">
+                                                                <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-teacher-group__form" data-form>
+                                                        <select class="schedule-teacher-group-select -input-small -select-small" data-cselect-src="select" name="name-teacher">
+                                                            <option value="Іванон Іван Іванович">Іванон Іван Іванович</option>
+                                                            <option value="Іванон Іван Іванович2">Іванон Іван Іванович2</option>
+                                                            <option value="Іванон Іван Іванович3">Іванон Іван Іванович3</option>
+                                                            <option value="Іванон Іван Іванович4">Іванон Іван Іванович4</option>
+                                                            <option value="Іванон Іван Іванович5">Іванон Іван Іванович5</option>
+                                                            <option value="Іванон Іван Іванович6">Іванон Іван Іванович6</option>
+                                                            <option value="Іванон Іван Іванович7">Іванон Іван Іванович7</option>
+                                                        </select>
+                                                        <a href="" class="schedule-teacher-group__btn btn_blue btn-create"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="schedule-teacher__slider-slide swiper-slide schedule-teacher-group">
+                                                    <h4 class="schedule-teacher-group__title">Укр.мова</h4>
+                                                    <div class="schedule-teacher-group__list">
+                                                        <div class="schedule-teacher-group__item schedule-teacher-item">
+                                                            <div class="schedule-teacher-item__info">
+                                                                <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                                <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                            </div>
+                                                            <div class="schedule-teacher-item__actions">
+                                                                <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-teacher-group__form" data-form>
+                                                        <select class="schedule-teacher-group-select -input-small -select-small" data-cselect-src="select" name="name-teacher">
+                                                            <option value="Іванон Іван Іванович">Іванон Іван Іванович</option>
+                                                            <option value="Іванон Іван Іванович2">Іванон Іван Іванович2</option>
+                                                            <option value="Іванон Іван Іванович3">Іванон Іван Іванович3</option>
+                                                            <option value="Іванон Іван Іванович4">Іванон Іван Іванович4</option>
+                                                            <option value="Іванон Іван Іванович5">Іванон Іван Іванович5</option>
+                                                            <option value="Іванон Іван Іванович6">Іванон Іван Іванович6</option>
+                                                            <option value="Іванон Іван Іванович7">Іванон Іван Іванович7</option>
+                                                        </select>
+                                                        <a href="" class="schedule-teacher-group__btn btn_blue btn-create"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="schedule-teacher__slider-slide swiper-slide schedule-teacher-group">
+                                                    <h4 class="schedule-teacher-group__title">Укр.мова</h4>
+                                                    <div class="schedule-teacher-group__list">
+                                                        <div class="schedule-teacher-group__item schedule-teacher-item">
+                                                            <div class="schedule-teacher-item__info">
+                                                                <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                                <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                            </div>
+                                                            <div class="schedule-teacher-item__actions">
+                                                                <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-teacher-group__form" data-form>
+                                                        <select class="schedule-teacher-group-select -input-small -select-small" data-cselect-src="select" name="name-teacher">
+                                                            <option value="Іванон Іван Іванович">Іванон Іван Іванович</option>
+                                                            <option value="Іванон Іван Іванович2">Іванон Іван Іванович2</option>
+                                                            <option value="Іванон Іван Іванович3">Іванон Іван Іванович3</option>
+                                                            <option value="Іванон Іван Іванович4">Іванон Іван Іванович4</option>
+                                                            <option value="Іванон Іван Іванович5">Іванон Іван Іванович5</option>
+                                                            <option value="Іванон Іван Іванович6">Іванон Іван Іванович6</option>
+                                                            <option value="Іванон Іван Іванович7">Іванон Іван Іванович7</option>
+                                                        </select>
+                                                        <a href="" class="schedule-teacher-group__btn btn_blue btn-create"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="schedule-teacher__slider-slide swiper-slide schedule-teacher-group">
+                                                    <h4 class="schedule-teacher-group__title">Укр.мова</h4>
+                                                    <div class="schedule-teacher-group__list">
+                                                        <div class="schedule-teacher-group__item schedule-teacher-item">
+                                                            <div class="schedule-teacher-item__info">
+                                                                <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                                <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                            </div>
+                                                            <div class="schedule-teacher-item__actions">
+                                                                <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="schedule-teacher-group__form" data-form>
+                                                        <select class="schedule-teacher-group-select -input-small -select-small" data-cselect-src="select" name="name-teacher">
+                                                            <option value="Іванон Іван Іванович">Іванон Іван Іванович</option>
+                                                            <option value="Іванон Іван Іванович2">Іванон Іван Іванович2</option>
+                                                            <option value="Іванон Іван Іванович3">Іванон Іван Іванович3</option>
+                                                            <option value="Іванон Іван Іванович4">Іванон Іван Іванович4</option>
+                                                            <option value="Іванон Іван Іванович5">Іванон Іван Іванович5</option>
+                                                            <option value="Іванон Іван Іванович6">Іванон Іван Іванович6</option>
+                                                            <option value="Іванон Іван Іванович7">Іванон Іван Іванович7</option>
+                                                        </select>
+                                                        <a href="" class="schedule-teacher-group__btn btn_blue btn-create"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="schedule-teacher__slider-arrows -slider-arrows">
+                                            <div class="schedule-teacher__slider-arrow schedule-teacher__slider-arrow_prev -slider-arrow -slider-arrow_prev"><span class="-icon-arrow-right"></span></div>
+                                            <div class="schedule-teacher__slider-arrow schedule-teacher__slider-arrow_next -slider-arrow -slider-arrow_next"><span class="-icon-arrow-right"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-teacher__body">
+                                        <h3 class="schedule-teacher__title title-schedule">Викладачі:</h3>
+                                        <div class="schedule-teacher__grid">
+                                            <div class="schedule-teacher__item schedule-teacher-item">
+                                                <div class="schedule-teacher-item__info">
+                                                    <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                    <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                </div>
+                                                <div class="schedule-teacher-item__actions">
+                                                    <div class="schedule-teacher-item__input-label">
+                                                        <p>каб.</p>
+                                                        <div class="schedule-teacher-item__input -input-form -input-small">
+                                                            <input data-value="№" autocomplete="off" type="text" name="cabinet">
+                                                        </div>
+                                                    </div>
+                                                    <select class="schedule-teacher-item-select -input-small -select-small" name="job" data-cselect-src="select" data-cselect-auto-height>
+                                                        <option value="майстер в/н">майстер в/н</option>
+                                                        <option value="викладач">викладач</option>
+                                                        <option value="викладач/класн. кер.">викладач/класн. кер.</option>
+                                                    </select>
+                                                    <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-teacher__item schedule-teacher-item">
+                                                <div class="schedule-teacher-item__info">
+                                                    <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                    <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                </div>
+                                                <div class="schedule-teacher-item__actions">
+                                                    <div class="schedule-teacher-item__input-label">
+                                                        <p>каб.</p>
+                                                        <div class="schedule-teacher-item__input -input-form -input-small">
+                                                            <input data-value="№" autocomplete="off" type="text" name="cabinet">
+                                                        </div>
+                                                    </div>
+                                                    <select class="schedule-teacher-item-select -input-small -select-small" name="job" data-cselect-src="select" data-cselect-auto-height>
+                                                        <option value="майстер в/н">майстер в/н</option>
+                                                        <option value="викладач">викладач</option>
+                                                        <option value="викладач/класн. кер.">викладач/класн. кер.</option>
+                                                    </select>
+                                                    <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-teacher__item schedule-teacher-item">
+                                                <div class="schedule-teacher-item__info">
+                                                    <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                    <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                </div>
+                                                <div class="schedule-teacher-item__actions">
+                                                    <div class="schedule-teacher-item__input-label">
+                                                        <p>каб.</p>
+                                                        <div class="schedule-teacher-item__input -input-form -input-small">
+                                                            <input data-value="№" autocomplete="off" type="text" name="cabinet">
+                                                        </div>
+                                                    </div>
+                                                    <select class="schedule-teacher-item-select -input-small -select-small" name="job" data-cselect-src="select" data-cselect-auto-height>
+                                                        <option value="майстер в/н">майстер в/н</option>
+                                                        <option value="викладач">викладач</option>
+                                                        <option value="викладач/класн. кер.">викладач/класн. кер.</option>
+                                                    </select>
+                                                    <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-teacher__item schedule-teacher-item">
+                                                <div class="schedule-teacher-item__info">
+                                                    <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                    <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                </div>
+                                                <div class="schedule-teacher-item__actions">
+                                                    <div class="schedule-teacher-item__input-label">
+                                                        <p>каб.</p>
+                                                        <div class="schedule-teacher-item__input -input-form -input-small">
+                                                            <input data-value="№" autocomplete="off" type="text" name="cabinet">
+                                                        </div>
+                                                    </div>
+                                                    <select class="schedule-teacher-item-select -input-small -select-small" name="job" data-cselect-src="select" data-cselect-auto-height>
+                                                        <option value="майстер в/н">майстер в/н</option>
+                                                        <option value="викладач">викладач</option>
+                                                        <option value="викладач/класн. кер.">викладач/класн. кер.</option>
+                                                    </select>
+                                                    <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-teacher__item schedule-teacher-item">
+                                                <div class="schedule-teacher-item__info">
+                                                    <div class="schedule-teacher-item__avatar -ai"><img src="img/student/preview books/1/алгебра.png" alt=""></div>
+                                                    <p class="schedule-teacher-item__text">Іванон Іван Іванович</p>
+                                                </div>
+                                                <div class="schedule-teacher-item__actions">
+                                                    <div class="schedule-teacher-item__input-label">
+                                                        <p>каб.</p>
+                                                        <div class="schedule-teacher-item__input -input-form -input-small">
+                                                            <input data-value="№" autocomplete="off" type="text" name="cabinet">
+                                                        </div>
+                                                    </div>
+                                                    <select class="schedule-teacher-item-select -input-small -select-small" name="job" data-cselect-src="select" data-cselect-auto-height>
+                                                        <option value="майстер в/н">майстер в/н</option>
+                                                        <option value="викладач">викладач</option>
+                                                        <option value="викладач/класн. кер.">викладач/класн. кер.</option>
+                                                    </select>
+                                                    <a href="#" class="schedule-teacher-item__delete delete-icon"><span class="-icon-trash"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-teacher__footer">
+                                        <a href="" class="schedule-teacher__btn btn btn_big btn_blue">Зберегти</a>
+                                    </div>
+                                </div>
+                                <div class="info-schedule-tabs__content schedule-groups" data-tab-content="3">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="schedule__start schedule-start"></div>
+                        <div class="schedule__preview schedule-preview"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <div class="footer__container -container">
+        <div class="footer__main">
+            <div class="footer__col footer__col_1">
+                <div class="footer__logo logo">
+                    <img src="/img/logo.svg" alt="">
+                    Portable<br>Education<br>Platform
+                </div>
+            </div>
+            <div class="footer__col footer__col_2">
+                <h4 class="footer__title">Основні посилання:</h4>
+                <ul class="footer__list footer__list_menu">
+                    <li><a href="#" class="footer__link">Здобувачу освіти</a></li>
+                    <li><a href="#" class="footer__link">Електронний розклад</a></li>
+                    <li><a href="#" class="footer__link">Мій клас</a></li>
+                    <li><a href="#" class="footer__link">Картка "Моя освіта"</a></li>
+                    <li><a href="#" class="footer__link">Тестування</a></li>
+                </ul>
+            </div>
+            <div class="footer__col footer__col_3">
+                <h4 class="footer__title">Контакти</h4>
+                <ul class="footer__list">
+                    <li>E-mail: <a href="mailto:pep.edu.official@gmail.com">pep.edu.official@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__footer">
+            <p class="footer__copyright">2025. Автор: Мордик Ілля</p>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+<script src="/js/libs.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+
+</html>
